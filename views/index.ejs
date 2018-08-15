@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Your Weather</title>
+        <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300"/>
+    </head>
+    <body>
+        <div class="container">
+            <fieldset>
+                <form action="/" method="POST">
+                <input type="text" name="city" class="amf-input" placeholder="Enter a City">
+                <input type="submit" class="amf-button" value="Get Weather">
+            </form>
+            </fieldset>
+        </div>
+        <div class="result">
+            <% if(weather){ %>
+                <p><%= weather %></p>
+            <% } %>
+    
+            <% if(error){ %>
+                <p><%= error %></p>
+            <% } %></div>
+    </body>
+</html>
