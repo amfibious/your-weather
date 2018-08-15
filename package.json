@@ -1,0 +1,23 @@
+{
+  "name": "your-weather",
+  "version": "1.0.0",
+  "description": "An appliation for getting the weather of a particular city anywhere in the world",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amfibious/your-weather.git"
+  },
+  "keywords": [
+    "weather",
+    "temperature"
+  ],
+  "author": "Sunrise Ezekikwu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amfibious/your-weather/issues"
+  },
+  "homepage": "https://github.com/amfibious/your-weather#readme"
+}
